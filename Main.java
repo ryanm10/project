@@ -2,6 +2,8 @@
 //Feburary 1st 2021 
 //Period 3 Programming Gaber
 
+//Purpose of this program: You will be entering your current weight, and finding out your weight on the moon. This is so in case we someday travel to the moon you would have a rough estimate of what your weight would be. 
+
 import java.util.Scanner;
 
 class Main {
@@ -13,7 +15,10 @@ class Main {
     System.out.println("What's your current weight on Earth?");
     int earthWeight = scan.nextInt();
     int moonWeight = scan.nextInt();
-    
+
+    int weight = getWeight(earthWeight, currentYear);
+    System.out.println("your current weight is " + weight);
+
 
   }
 }
