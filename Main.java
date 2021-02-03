@@ -19,6 +19,14 @@ class Main {
     int weight = getWeight(earthWeight, currentYear);
     System.out.println("your current weight is " + weight);
 
+     //This is a method to calculate and identify your current weight
+     
+  static int getAge(int birthYear, int currentYear)
+  {
+    int age = currentYear - birthYear;
+    return age;
+  }
+
 
   }
 }
