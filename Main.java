@@ -20,11 +20,11 @@ class Main {
     System.out.println("your current weight is " + weight);
 
      //This is a method to calculate and identify your current weight
-     
-  static int getAge(int birthYear, int currentYear)
+
+  static int getAge(int weight);
   {
-    int age = currentYear - birthYear;
-    return age;
+    int weight = currentWeight;
+    return weight;
   }
 
 
