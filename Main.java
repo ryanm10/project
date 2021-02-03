@@ -26,7 +26,7 @@ class Main {
     int weight = currentWeight;
     return weight;
   }
-
+//The way this works is by returning the weight of your current weight so that you will then calculate your weight on the moon
 
   }
 }
